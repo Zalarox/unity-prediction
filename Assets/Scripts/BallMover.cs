@@ -22,7 +22,7 @@ public class BallMover : MonoBehaviour {
         {
             case "Left": dir = Vector2.left;  break;
             case "Right": dir = Vector2.right;  break;
-            case "Top": dir = Vector2.up;  break;
+            case "Up": dir = Vector2.up;  break;
             case "Down": dir = Vector2.down; break;
             default: break;
         }
